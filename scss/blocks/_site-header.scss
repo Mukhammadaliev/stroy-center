@@ -116,13 +116,14 @@
       }
     }
   }
-  .site-header--open {
+  .site-header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 99;
     width: 100%;
   }
-  .main-body--open {
+  .main-body {
     margin-top: 95.81px;
   }
   .navbar__item-link {

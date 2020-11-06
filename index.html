@@ -280,6 +280,26 @@
                                 </div>
                               </div>
                             </section>
+                            <section class="choose">
+                              <h2 class="choose__title"></h2>
+                              <p class="choose__sub-title"></p>
+                              <div class="choose__wrapper">
+                                <div class="choose__left">
+                                  <ul class="choose__list">
+                                    <li class="choose__item choose-card">
+                                      <h3 class="choose-card__title"></h3>
+                                      <p class="choose-card__text"></p>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="choose__right choose-quote">
+                                  <blockquote class="choose-quote__text"></blockquote>
+                                  <div class="choose-quote__info name-info">
+
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
                           </main>
 
 
@@ -287,11 +307,9 @@
                             var elModalToggler = document.querySelector('.menu-burger');
                             var elModal = document.querySelector('.site-header');
                             var elModalClose = document.querySelector('.site-header--open');
-                            var elBody = document.querySelector('.main-body');
 
                             elModalToggler.addEventListener('click', function () {
                               elModal.classList.toggle('site-header--open');
-                              elBody.classList.toggle('main-body--open')
                             });
                           </script>
                         </body>

@@ -604,13 +604,14 @@ img {
   .site-header--open .navbar__list .navbar__item:last-child {
     margin-bottom: 0;
   }
-  .site-header--open {
+  .site-header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 99;
     width: 100%;
   }
-  .main-body--open {
+  .main-body {
     margin-top: 95.81px;
   }
   .navbar__item-link {
@@ -934,7 +935,7 @@ img {
   color: #212B31;
   display: inline-block;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .span-linear-gradient::after {
@@ -945,7 +946,7 @@ img {
   top: 50%;
   left: 0;
   height: 50%;
-  z-index: -1;
+  z-index: -3;
   background-color: #FFD042;
 }
 
