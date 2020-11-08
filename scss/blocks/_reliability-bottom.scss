@@ -42,6 +42,9 @@
     flex-direction: column;
   }
   .reliability-bottom::before {
+    margin-right: 0;
+  }
+  .reliability-bottom::before {
     margin-bottom: 20px;
   }
   .reliability-bottom__btn {
