@@ -504,6 +504,12 @@ img {
   font-size: 16px;
   line-height: 19px;
   color: #72787D;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.navbar__item-link:hover {
+  color: #036FC7;
 }
 
 .menu-burger {

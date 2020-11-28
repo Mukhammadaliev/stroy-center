@@ -28,6 +28,10 @@
   font-size: 16px;
   line-height: 19px;
   color: #72787D;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #036FC7;
+  }
 }
 
 .menu-burger {
